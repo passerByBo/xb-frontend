@@ -1,0 +1,23 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 info pnpm": {
+    "err": {
+      "name": "Error",
+      "message": "not found: -i",
+      "code": "ENOENT",
+      "stack": "Error: not found: -i\n    at getNotFoundError (/usr/local/share/.config/yarn/global/node_modules/pnpm/dist/pnpm.cjs:41714:51)\n    at Function.whichSync [as sync] (/usr/local/share/.config/yarn/global/node_modules/pnpm/dist/pnpm.cjs:41791:13)\n    at getCommandAbsolutePathSync (/usr/local/share/.config/yarn/global/node_modules/pnpm/dist/pnpm.cjs:43356:44)\n    at default_1 (/usr/local/share/.config/yarn/global/node_modules/pnpm/dist/pnpm.cjs:43365:32)\n    at /usr/local/share/.config/yarn/global/node_modules/pnpm/dist/pnpm.cjs:178436:39"
+    }
+  },
+  "2 error pnpm": {
+    "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+    "prefix": "/Users/admin/雪狼班/阶段一/projects/xb-frontend/interface",
+    "err": {
+      "name": "pnpm",
+      "message": "not found: -i",
+      "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+      "stack": "Error: not found: -i\n    at getNotFoundError (/usr/local/share/.config/yarn/global/node_modules/pnpm/dist/pnpm.cjs:41714:51)\n    at Function.whichSync [as sync] (/usr/local/share/.config/yarn/global/node_modules/pnpm/dist/pnpm.cjs:41791:13)\n    at getCommandAbsolutePathSync (/usr/local/share/.config/yarn/global/node_modules/pnpm/dist/pnpm.cjs:43356:44)\n    at default_1 (/usr/local/share/.config/yarn/global/node_modules/pnpm/dist/pnpm.cjs:43365:32)\n    at /usr/local/share/.config/yarn/global/node_modules/pnpm/dist/pnpm.cjs:178436:39"
+    }
+  }
+}
