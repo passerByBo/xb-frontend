@@ -37,4 +37,4 @@ pnpm workspace
 
 pnpm publish 的时候自动会去除workspaces
 
-lerna add 和pnpm add的方式 都可以支持开发  publish的时候会有问题 加了workspace只能一个一个的进行publish
+lerna add 和pnpm add的方式 都可以支持开发  publish的时候会有问题 加了workspace只能一个一个publish
