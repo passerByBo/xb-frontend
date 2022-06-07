@@ -38,3 +38,13 @@ pnpm workspace
 pnpm publish 的时候自动会去除workspaces
 
 lerna add 和pnpm add的方式 都可以支持开发  publish的时候会有问题 加了workspace只能一个一个publish
+
+rushjs
+
+合并文件  多个ts文件合并为一个
+
+lerna pubulish的时候会报错 pnpm workspace协议不识别
+
+pnpm add xx
+
+fx 命令行将json进行解析
